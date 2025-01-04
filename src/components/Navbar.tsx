@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 export default function Navbar() {
   return (
@@ -12,7 +12,7 @@ export default function Navbar() {
           </a>
         </div>
         {/* menu */}
-        <div className="flex gap-6 text-2xl">
+        <div className="hidden md:flex gap-6 text-2xl">
           <button className="border border-white bg-zinc-900 rounded-lg py-2 px-6">
             Submit a request
           </button>
